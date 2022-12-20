@@ -1,0 +1,18 @@
+<h2>Caronas Disponíveis: </h2>
+
+{{#each postagens}}
+<div class="card mt-4">
+	<div class="card-bory">
+		<hr>
+		<h4>Destino: {{destino}}</h4>
+		<p>Saída: {{horario}}</p>
+		<p>Vagas disponíveis: {{vagas}}</p>
+		<a href="/postagem/{{id}}"><button class= "btn btn-success">Leia mais</button></a>
+		<hr>
+	</div>
+</div>
+{{else}}
+	<h5>Nenhuma carona no momento!</h5>
+{{/each}}
+
+<a href="/postagens/add"><button class= "btn btn-success">Nova Postagem</button></a>
