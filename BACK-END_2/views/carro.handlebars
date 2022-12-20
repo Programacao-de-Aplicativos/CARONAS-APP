@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script type="text/javascript"src="./app.js"></script>
+</head>
+<body>
+    <h1>Cadastro Carro</h1>
+
+    {{#each token}}
+        <h4>{{token}}</h4>
+    {{/each}}
+    <form action="/Carro" method="POST">
+        <label>Placa: </label><input type="text" name="placa" >
+        <label>Marca: </label><input type="text" name="marca" >
+        <label>Modelo: </label><input type="text" name="modelo" >
+        <label>Capacidade(Vai que é um veloster ne): </label><input type="number" name="capacidade" >
+        <button type="submit">Cadastrar Carro</button>
+    </form>
+</body>
+</html>

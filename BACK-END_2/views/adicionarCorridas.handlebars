@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script type="text/javascript"src="./app.js"></script>
+</head>
+<body>
+    <h1>Cadastro Carro</h1>
+
+  
+    <form action="/AdicionarCorridas" method="POST">
+        <label>Preço: </label><input type="text" name="preco">
+        <label>Horario: </label><input type="text" name="horario">
+        <label>Estacionamento: </label><select name="estacionamento"><label>Estacionamento: </label>
+            <option value="1" selected>Perto do Ginásio</option>
+            <option value="2">Abaixo dos Blocos</option>
+        
+        </select>
+        <label>Bairro: </label><select name="bairro"><label>Destino: </label>
+            <option value="2" selected>Centro</option>
+            <option value="1">Novo Centro</option>
+            <option value="3">Bela Vista</option>
+        
+        </select>
+        <button type="submit">Cadastrar Corrida</button>
+    </form>
+</body>
+</html>
