@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "PAPP",
+    "slug": "PAPP",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/img_tela_inicial/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/img/img_tela_inicial/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/img_tela_inicial/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/img/img_tela_inicial/favicon.png"
+    }
+  }
+}
